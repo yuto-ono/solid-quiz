@@ -7,7 +7,7 @@ const App = () => {
   return (
     <Container>
       <Question text="ここに問題文が入ります" />
-      <Choices />
+      <Choices choices={["選択肢 1", "選択肢 2", "選択肢 3"]} />
     </Container>
   )
 }
