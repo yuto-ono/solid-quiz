@@ -13,7 +13,7 @@ const Question = (props: Props) => {
           font-weight: bold;
         `}
       >
-        問題1
+        問題
       </h2>
       <p
         class={css`
