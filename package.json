@@ -16,6 +16,7 @@
     "vite-plugin-solid": "^2.3.9"
   },
   "dependencies": {
+    "@emotion/css": "^11.10.0",
     "solid-js": "^1.5.7"
   }
 }
