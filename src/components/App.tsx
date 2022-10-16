@@ -37,7 +37,9 @@ const App = () => {
       />
       <Show when={judged()}>
         <Result isCorrect={isCorrect()} />
-        <Explanation text={explanationText} />
+        <Show when={isCorrect()}>
+          <Explanation text={explanationText} />
+        </Show>
         <Button onClick={reset}>リトライ</Button>
       </Show>
     </Container>
