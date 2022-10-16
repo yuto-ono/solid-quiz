@@ -11,7 +11,7 @@ const Choices = (props: Props) => {
       class={css`
         list-style: none;
         padding: 0;
-        margin-bottom: 16px;
+        margin-top: 10px;
       `}
     >
       <For each={props.choices}>

@@ -1,8 +1,11 @@
-body {
+* {
   margin: 0;
-  background-color: #eee;
 }
 
-p {
-  margin: 0;
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
 }
