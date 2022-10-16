@@ -3,7 +3,6 @@ import { For } from "solid-js"
 
 type Props = {
   choices: string[]
-  answer: string
   judged: boolean
   yourAnswer: string
   judge: (choice: string) => void

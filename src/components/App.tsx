@@ -33,7 +33,6 @@ const App = () => {
         judge={judge}
         judged={judged()}
         yourAnswer={yourAnswer()}
-        answer={answer}
       />
       <Show when={judged()}>
         <Result isCorrect={isCorrect()} />
