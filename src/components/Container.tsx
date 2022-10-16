@@ -9,7 +9,7 @@ const Container = (props: Props) => {
   return (
     <section
       class={css`
-        width: 400px;
+        width: min(600px, 85%);
         margin: 16px auto;
         background-color: #fff;
         border-radius: 4px;
