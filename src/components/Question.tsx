@@ -9,7 +9,8 @@ const Question = (props: Props) => {
     <>
       <h2
         class={css`
-          margin-bottom: 18px;
+          margin: 0 0 18px;
+          font-size: 18px;
           font-weight: bold;
         `}
       >
