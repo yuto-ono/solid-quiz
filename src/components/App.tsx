@@ -1,7 +1,9 @@
 import "../global.css"
 import Choices from "./Choices"
 import Container from "./Container"
+import Explanation from "./Explanation"
 import Question from "./Question"
+import Result from "./Result"
 import Title from "./Title"
 
 const App = () => {
@@ -10,6 +12,8 @@ const App = () => {
       <Title>Solid Quiz</Title>
       <Question text={questionText} />
       <Choices choices={choices} />
+      <Result />
+      <Explanation />
     </Container>
   )
 }
