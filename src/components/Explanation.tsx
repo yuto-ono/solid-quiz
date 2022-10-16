@@ -8,6 +8,7 @@ const Explanation = (props: Props) => {
   return (
     <p
       class={css`
+        margin-bottom: 16px;
         font-size: 16px;
       `}
     >

@@ -1,5 +1,6 @@
 import { createSignal, Show } from "solid-js"
 import "../global.css"
+import Button from "./Button"
 import Choices from "./Choices"
 import Container from "./Container"
 import Explanation from "./Explanation"
@@ -18,6 +19,11 @@ const App = () => {
     setIsCorrect(choice === answer)
   }
 
+  const reset = () => {
+    setJudged(false)
+    setYourAnswer("")
+  }
+
   return (
     <Container>
       <Title>Solid Quiz</Title>
@@ -32,6 +38,7 @@ const App = () => {
       <Show when={judged()}>
         <Result isCorrect={isCorrect()} />
         <Explanation text={explanationText} />
+        <Button onClick={reset}>リトライ</Button>
       </Show>
     </Container>
   )
